@@ -1,0 +1,33 @@
+body {
+  background: #ff2a50;
+  color: white;
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-radius: 2px;
+  padding: .5em;
+  font-size: .4em;
+}
+
+input[type="text"] {
+  width: 9em;
+}
+
+input:focus {
+  outline: 5px solid #33ffcc;
+  border: 2px solid black;
+  box-shadow: 0 0 2px 5px rgba(40, 60, 120, 0.5);
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: .2em .4em;
+}
